@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<style type="text/css">
+		body {
+			height: 100vh;
+			width: 100vw;
+		}
+
+		.out {
+			height: 100vh;
+			width: 100vw;
+			display: flex;
+		}
+
+		.imgs1 {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.imgs2 {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+
+		.table {
+			width: 35vw;
+			display: flex;
+			justify-content: space-around;
+			align-self: center;
+			margin-top: 50px;
+			border-radius: 25px;
+			min-width: 500px;
+		}
+
+		td {
+			min-width: 400px;
+			border: none;
+		}
+
+		input[type=text] {
+			width: 90%;
+			height: 100%;
+			font-size: 20pt;
+			margin: 10px;
+		}
+
+		input[type=button] {
+			height: 7vh;
+			width: 6vw;
+			font-size: 18pt;
+			padding: 20px;
+			background: rgb(215, 215, 215);
+			margin: 20px;
+			text-align: center;
+			min-width: 20%;
+		}
+
+
+		#one:hover {
+			background-image: url(images/minion1.jpeg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#two:hover {
+			background-image: url(images/minion2.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+
+		#three:hover {
+			background-image: url(images/minion3.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#four:hover {
+			background-image: url(images/minion4.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+
+		#five:hover {
+			background-image: url(images/minion5.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#six:hover {
+			background-image: url(images/minion6.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#seven:hover {
+			background-image: url(images/minion7.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#eight:hover {
+			background-image: url(images/minion8.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#nine:hover {
+			background-image: url(images/minion9.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#zero:hover {
+			background-image: url(images/minion18.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#divi:hover {
+			background-image: url(images/minion10.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#mult:hover {
+			background-image: url(images/minion12.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#minus:hover {
+			background-image: url(images/minion13.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+
+		#plus:hover {
+			background-image: url(images/minion14.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#deci:hover {
+			background-image: url(images/minion15.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#clr:hover {
+			background-image: url(images/minion16.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#avg:hover {
+			background-image: url(images/minion17.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#equal:hover {
+			background-image: url(images/minion11.jpg);
+			box-shadow: 1px 1px 1px 1px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+
+
+
+
+
+	<div class="out">
+
+		<div class="imgs1">
+			<img src="images/miniontitle.jpg">
+
+			<img src="images/wave.gif">
+		</div>
+
+		<form class="form" NAME="Calc">
+			<table class="table" BORDER=4 border-radius:>
+
+				<td>
+
+					<input TYPE="text" NAME="Input" Size="16" border-radius="25px" ;>
+
+					<br>
+					<input TYPE="button" NAME="seven" id="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+
+					<input TYPE="button" NAME="eight" id="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+
+					<input TYPE="button" NAME="nine" id="nine" VALUE="  9  " OnCLick="Calc.Input.value += '9'">
+
+					<br>
+
+					<input TYPE="button" NAME="four" id="four" VALUE="  4  " OnClick="Calc.Input.value += '4'">
+
+					<input TYPE="button" NAME="five" id="five" VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+
+					<input TYPE="button" NAME="six" id="six" VALUE="  6  " OnCLick="Calc.Input.value += '6'">
+
+					<br>
+
+					<input TYPE="button" NAME="one" id="one" VALUE="  1  " OnClick="Calc.Input.value += '1'">
+
+					<input TYPE="button" NAME="two" id="two" VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+
+					<input TYPE="button" NAME="three" id="three" VALUE="  3  " OnCLick="Calc.Input.value += '3'">
+
+					<br>
+
+					<input TYPE="button" NAME="zero" id="zero" VALUE="  0  " OnCLick="Calc.Input.value += '0'">
+
+					<input TYPE="button" NAME="divi" id="divi" VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+
+					<input TYPE="button" NAME="mult" id="mult" VALUE="  X  " OnClick="Calc.Input.value += ' * '">
+
+					<br>
+
+					<input TYPE="button" NAME="minus" id="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+
+					<input TYPE="button" NAME="plus" id="plus" VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+
+					<input TYPE="button" NAME="deci" id="deci" VALUE="   .   " OnClick="Calc.Input.value += '.'">
+
+					<br>
+
+					<input TYPE="button" NAME="aver" id="avg" VALUE="" OnClick="Calc.Input.value += ''">
+
+					<input TYPE="button" NAME="clr" id="clr" VALUE="A/C" OnClick="Calc.Input.value = ''">
+
+					<input TYPE="button" NAME="DoIt" id="equal" VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value);playAudio()">
+				</td>
+			</table>
+		</form>
+
+		<div class="imgs2">
+			<img src="images/shootminion.gif">
+
+			<img src="images/minion.png">
+		</div>
+
+	</div>
+
+	<audio id="myAudio">
+
+		<source src="audio/minionboss.mp3" type="audio/mpeg">
+
+	</audio>
+
+
+	<script>
+		var x = document.getElementById("myAudio");
+
+		function playAudio() {
+			x.play();
+		}
+
+	</script>
+
+</body>
+
+</html>
